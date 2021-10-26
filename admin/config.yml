@@ -6,7 +6,18 @@ backend:
 publish_mode: editorial_workflow
 media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
 
+
 collections:
+  - name: tags
+    label: Tags
+    folder: "admin/tags"
+    create: true
+    slug: "{{name}}"
+    identifier_field: name
+    summary: "{{name}}"
+    fields: 
+      - {name: name, label: Name}
+
   - name: "post" # Used in routes, e.g., /admin/collections/blog
     label: "Post" # Used in the UI
     folder: "_posts" # The path to the folder where the documents are stored
@@ -16,7 +27,14 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Categories", name: "categories", widget: "list"}
+      - name: tags
+        label: Tags
+        widget: relation
+        collection: "tags"
+        search_fields: ["name"]
+        value_field: "name"
+        display_fields: ["name"]
+        multiple: true
       - {label: "Body", name: "body", widget: "markdown"}
       
   - name: "page" # Used in routes, e.g., /admin/collections/pages
