@@ -27,6 +27,17 @@
   
 
   
+      ,"page2": {
+          "title": "",
+          "content": "",
+          "url": "https://ugotsoul.github.io/blog/admin/tags/art-1.html",
+          "relUrl": "/admin/tags/art-1.html",
+          "date": ""
+      }
+      
+  
+
+  
 
   
   
@@ -48,7 +59,7 @@
   
 
   
-      ,"page10": {
+      ,"page11": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://ugotsoul.github.io/blog/robots.txt",
