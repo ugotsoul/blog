@@ -9,7 +9,7 @@ media_folder: "images/uploads" # Media files will be stored in the repo under im
 
 collections:
   - name: tags
-    label: Tags
+    label: Categories
     folder: "admin/tags"
     create: true
     slug: "{{name}}"
