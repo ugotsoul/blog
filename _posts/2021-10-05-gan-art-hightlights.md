@@ -4,8 +4,6 @@ title: GAN Art Hightlights
 date: 2021-10-05T18:30:15.994Z
 categories:
   - art
-tags:
-  - art
   - gans
   - machine-learning
   - ""
