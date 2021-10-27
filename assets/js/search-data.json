@@ -4,8 +4,8 @@
         "post0": {
             "title": "test",
             "content": "test .",
-            "url": "https://ugotsoul.github.io/blog/2021/10/27/test.html",
-            "relUrl": "/2021/10/27/test.html",
+            "url": "https://ugotsoul.github.io/blog/test/blah/2021/10/27/test.html",
+            "relUrl": "/test/blah/2021/10/27/test.html",
             "date": " • Oct 27, 2021"
         }
         
@@ -15,8 +15,8 @@
         ,"post1": {
             "title": "GAN Art Hightlights",
             "content": ". View this post on Instagram A post shared by extreme cougar wife (@u.got.soul) . .",
-            "url": "https://ugotsoul.github.io/blog/art/2021/10/05/gan-art-hightlights.html",
-            "relUrl": "/art/2021/10/05/gan-art-hightlights.html",
+            "url": "https://ugotsoul.github.io/blog/art/gans/machine-learning/2021/10/05/gan-art-hightlights.html",
+            "relUrl": "/art/gans/machine-learning/2021/10/05/gan-art-hightlights.html",
             "date": " • Oct 5, 2021"
         }
         
@@ -38,17 +38,6 @@
   
 
   
-      ,"page2": {
-          "title": "",
-          "content": "",
-          "url": "https://ugotsoul.github.io/blog/admin/tags/art-1.html",
-          "relUrl": "/admin/tags/art-1.html",
-          "date": ""
-      }
-      
-  
-
-  
 
   
   
@@ -70,7 +59,7 @@
   
 
   
-      ,"page11": {
+      ,"page10": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://ugotsoul.github.io/blog/robots.txt",
